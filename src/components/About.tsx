@@ -43,13 +43,13 @@ export default class About extends Component {
             </div>
             <div className='col s12 m6 l5 xl5'>
               <p>
-                <b>Phone No:</b> 096-894-1040
+                <b>Phone No:</b> (+66) 96-894-1040
               </p>
               <p>
-                <b>Main Language:</b> Thai
+                <b>Native Language:</b> Thai
               </p>
               <p>
-                <b>Second Language:</b> English
+                <b>Foreign Language:</b> English
               </p>
               
             </div>
@@ -57,16 +57,19 @@ export default class About extends Component {
         </Typography>
         <Stack direction="row" spacing={3}>
           <Button variant="contained">
-            <InstagramIcon/>
-            <Link href='https://www.instagram.com/s.sutthiphan_keang/' color="inherit" underline="hover">instagram</Link> 
+            <InstagramIcon/> 
+            <Typography>&nbsp;</Typography>
+            <Link href='https://www.instagram.com/s.sutthiphan_keang/' target="_blank" color="inherit" underline="hover" > instagram</Link> 
           </Button>
           <Button variant="contained">
             <FacebookIcon/>
-            <Link href='https://www.facebook.com/keang.hero.1/' color="inherit" underline="hover">Facebook</Link> 
+            <Typography>&nbsp;</Typography>
+            <Link href='https://www.facebook.com/keang.hero.1/' target="_blank" color="inherit" underline="hover">Facebook</Link> 
           </Button>
           <Button variant="contained">
             <LinkedInIcon/>
-            <Link href='https://www.linkedin.com/in/sutthiphan-prananpaeng-88633b232' color="inherit" underline="hover">LinkedIn</Link>
+            <Typography>&nbsp;</Typography>
+            <Link href='https://www.linkedin.com/in/sutthiphan-prananpaeng-88633b232' target="_blank" color="inherit" underline="hover">LinkedIn</Link>
           </Button>
         </Stack>
       </CardContent>

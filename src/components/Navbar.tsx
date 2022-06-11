@@ -17,7 +17,7 @@ export default class Navbar extends Component {
       <AppBar position="static">
         <Toolbar variant="dense">
           <Typography variant="h4" color="inherit" component="div">
-            <b>SUTTHIPHAN'S RESUME</b>
+            <b>SUTTHIPHAN'S RÉSUMÉ</b>
           </Typography>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>

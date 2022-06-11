@@ -20,13 +20,13 @@ const ColorlibConnector = styled(StepConnector)(({ theme }) => ({
   [`&.${stepConnectorClasses.active}`]: {
     [`& .${stepConnectorClasses.line}`]: {
       backgroundImage:
-        'linear-gradient( 95deg,rgb(242,113,33) 0%,rgb(233,64,87) 50%,rgb(138,35,135) 100%)',
+        'linear-gradient( 95deg,rgb(102,153,255) 0%,rgb(233,64,87) 50%,rgb(138,35,135) 100%)',
     },
   },
   [`&.${stepConnectorClasses.completed}`]: {
     [`& .${stepConnectorClasses.line}`]: {
       backgroundImage:
-        'linear-gradient( 95deg,rgb(242,113,33) 0%,rgb(233,64,87) 50%,rgb(138,35,135) 100%)',
+        'linear-gradient( 95deg,rgb(102, 153, 255) 0%,rgb(51,102,255) 50%,rgb(102, 153, 255) 100%)',
     },
   },
   [`& .${stepConnectorClasses.line}`]: {
@@ -57,7 +57,7 @@ const ColorlibStepIconRoot = styled('div')<{
   }),
   ...(ownerState.completed && {
     backgroundImage:
-      'linear-gradient( 136deg, rgb(242,113,33) 0%, rgb(233,64,87) 50%, rgb(138,35,135) 100%)',
+      'linear-gradient( 136deg, rgb(102, 153, 255) 0%, rgb(102, 153, 255) 50%, rgb(102, 153, 255) 100%)',
   }),
 }));
 
@@ -87,7 +87,7 @@ export default function CustomizedSteppers() {
           EDUCATION
         </Typography>
         <Stack sx={{ width: '100%' }} spacing={4}>
-          <Stepper alternativeLabel activeStep={1} connector={<ColorlibConnector />}>
+          <Stepper alternativeLabel activeStep={3} connector={<ColorlibConnector />}>
             {steps.map((label) => (
               <Step key={label}>
                 <StepLabel StepIconComponent={ColorlibStepIcon}>{label}</StepLabel>

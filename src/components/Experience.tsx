@@ -98,7 +98,7 @@ function SwipeableTextMobileStepper() {
                       sx={{
                         height: 350,
                         display: 'block',
-                        maxWidth: 525,
+                        maxWidth: 520,
                         overflow: 'hidden',
                         width: '100%',
                         m: 2
