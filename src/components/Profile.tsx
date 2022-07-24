@@ -10,16 +10,16 @@ import "./custom-css.css";
 export default class Profile extends Component {
   render() {
     return (
-      <Card sx={{ margin: 2 }}>
+      <Card sx={{ margin: 1.5 }}>
         <CardActionArea>
-          <CardMedia component="img" height="500" image={keang} />
+          <CardMedia component="img" width ="5000" height="550" image={keang} />
           <CardContent>
-            <Typography gutterBottom variant="h5">
+            <Typography gutterBottom variant="h4" className="roboto-font">
               <b>Sutthiphan Prananpaeng</b>
             </Typography>
             <Typography
               className="roboto-font"
-              variant="body1"
+              variant="subtitle1"
               color="text.secondary"
               gutterBottom
             >

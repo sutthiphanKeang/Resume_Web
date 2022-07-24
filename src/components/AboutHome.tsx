@@ -10,6 +10,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Box } from "@mui/material";
 import "./custom-css.css";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import { createTheme, ThemeProvider} from '@mui/material/styles';
 
 const theme = createTheme({
@@ -29,7 +30,7 @@ const theme = createTheme({
   },
 });
 
-export default class About extends Component {
+export default class AboutHome extends Component {
   render() {
     return (
       <Card sx={{ margin: 1.5 }}>
@@ -81,7 +82,7 @@ export default class About extends Component {
             </Typography>
           </Box>
 
-          <Stack direction="row" spacing={3}>
+          <Stack direction="row" spacing={4}>
             <Button variant="contained" color="secondary">
               <InstagramIcon />
               <Typography>&nbsp;</Typography>
@@ -117,6 +118,18 @@ export default class About extends Component {
                 underline="hover"
               >
                 LinkedIn
+              </Link>
+            </Button>
+            <Button variant="contained" color="secondary">
+              <GitHubIcon />
+              <Typography>&nbsp;</Typography>
+              <Link
+                href="https://github.com/sutthiphanKeang"
+                target="_blank"
+                color="inherit"
+                underline="hover"
+              >
+                GitHub
               </Link>
             </Button>
           </Stack>

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -11,6 +11,7 @@ import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
+import "./custom-css.css";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -63,9 +64,9 @@ function SwipeableTextMobileStepper() {
   };
 
   return (
-    <Card sx={{ margin: 2 }}>
+    <Card sx={{ margin: 1.5 }}>
     <CardContent>
-    <Typography variant="h5" component="div">
+    <Typography variant="h5" component="div" className="roboto-font">
        EXPRERIENCE
     </Typography>
       <Box sx={{ maxWidth: 1500, flexGrow: 1 }}>
@@ -80,7 +81,7 @@ function SwipeableTextMobileStepper() {
             bgcolor: 'background.default',
           }}
         >
-          <Typography>{images[activeStep].label}</Typography>
+          <Typography variant="h5" className="roboto-font">{images[activeStep].label}</Typography>
         </Paper>
         <AutoPlaySwipeableViews
           axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
@@ -110,7 +111,7 @@ function SwipeableTextMobileStepper() {
                   </div>
                   <div className='col s6'>
                     <Box sx={{ height: 300, maxWidth: 520, width: '100%', p: 2 }}>
-                      <h6>{step.description}</h6>
+                      <Typography variant="h6" gutterBottom color="text.secondary" className="roboto-font">{step.description}</Typography>
                     </Box>
                   </div>
                 </div>
