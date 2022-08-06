@@ -62,13 +62,13 @@ export default class SkillsHome extends Component {
                             <GitHubIcon />
                             <Typography>&nbsp;</Typography>
                             <Link
-                              href="https://github.com/sutthiphanKeang/204111"
+                              href="https://github.com/sutthiphanKeang/204111-Fundamentals-of-Programming"
                               target="_blank"
                               color="inherit"
                               underline="hover"
                             >
                               {" "}
-                              Practice in Fundamentals of Programming
+                              Fundamentals of Programming
                             </Link>
                           </Button>
                         </Stack>
@@ -94,7 +94,7 @@ export default class SkillsHome extends Component {
                             <GitHubIcon />
                             <Typography>&nbsp;</Typography>
                             <Link
-                              href="https://www.instagram.com/s.sutthiphan_keang/"
+                              href="https://github.com/sutthiphanKeang/Mini-Project-204333"
                               target="_blank"
                               color="inherit"
                               underline="hover"
@@ -128,20 +128,33 @@ export default class SkillsHome extends Component {
                             <GitHubIcon />
                             <Typography>&nbsp;</Typography>
                             <Link
-                              href="https://www.instagram.com/s.sutthiphan_keang/"
+                              href="https://github.com/sutthiphanKeang/204211-Object-Oriented-Programming"
                               target="_blank"
                               color="inherit"
                               underline="hover"
                             >
                               {" "}
-                              Practice in OOP and Data structure
+                              OOP
                             </Link>
                           </Button>
                           <Button variant="contained" color="secondary">
                             <GitHubIcon />
                             <Typography>&nbsp;</Typography>
                             <Link
-                              href="https://www.facebook.com/keang.hero.1/"
+                              href="https://github.com/sutthiphanKeang/204251-data-structures"
+                              target="_blank"
+                              color="inherit"
+                              underline="hover"
+                            >
+                              {" "}
+                              Data structure
+                            </Link>
+                          </Button>
+                          <Button variant="contained" color="secondary">
+                            <GitHubIcon />
+                            <Typography>&nbsp;</Typography>
+                            <Link
+                              href="https://github.com/nightkuzan/OOP_project"
                               target="_blank"
                               color="inherit"
                               underline="hover"
@@ -173,7 +186,7 @@ export default class SkillsHome extends Component {
                             <GitHubIcon />
                             <Typography>&nbsp;</Typography>
                             <Link
-                              href="https://www.instagram.com/s.sutthiphan_keang/"
+                              href="https://github.com/sutthiphanKeang/classroom-resevation-deployment"
                               target="_blank"
                               color="inherit"
                               underline="hover"
@@ -186,7 +199,7 @@ export default class SkillsHome extends Component {
                             <GitHubIcon />
                             <Typography>&nbsp;</Typography>
                             <Link
-                              href="https://www.facebook.com/keang.hero.1/"
+                              href="https://github.com/sutthiphanKeang/Resume_Web"
                               target="_blank"
                               color="inherit"
                               underline="hover"

@@ -41,7 +41,7 @@ export default class AboutHome extends Component {
           </Typography>
           <Box sx={{ p: 1 }}>
             <Typography sx={{ mb: 1.5 }} variant="h6" color="text.secondary" className="roboto-font">
-              I am currently in my third year of a bachelor's degree program. My
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I am currently in my third year of a bachelor's degree program. My
               advantage is that I am a conscientious and responsible individual.
               However, the disadvantage is that it is extremely indolent. I also
               enjoy sleeping a lot, therefore if I'm given a task, I'll work

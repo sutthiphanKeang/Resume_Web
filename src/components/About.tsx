@@ -10,6 +10,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Box } from "@mui/material";
 import "./custom-css.css";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import { createTheme, ThemeProvider} from '@mui/material/styles';
 
 const theme = createTheme({
@@ -40,11 +41,14 @@ export default class About extends Component {
           </Typography>
           <Box sx={{ p: 1 }}>
             <Typography sx={{ mb: 1.5 }} variant="h6" color="text.secondary" className="roboto-font">
-              I am currently in my third year of a bachelor's degree program. My
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I am currently in my third year of a bachelor's degree program. My
               advantage is that I am a conscientious and responsible individual.
               However, the disadvantage is that it is extremely indolent. I also
               enjoy sleeping a lot, therefore if I'm given a task, I'll work
-              hard to complete it as fast as feasible.
+              hard to complete it as fast as feasible.<br/>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My perspective on the world is that it is full of many wonderful things. 
+              The future won't come to us if we're trapped in the past. I thus desire to live in the moment. 
+              not holding on to the past and the future at the same time but still hoping for a promising future
             </Typography>
           </Box>
 
@@ -81,7 +85,7 @@ export default class About extends Component {
             </Typography>
           </Box>
 
-          <Stack direction="row" spacing={3}>
+          <Stack direction="row" spacing={4}>
             <Button variant="contained" color="secondary">
               <InstagramIcon />
               <Typography>&nbsp;</Typography>
@@ -117,6 +121,18 @@ export default class About extends Component {
                 underline="hover"
               >
                 LinkedIn
+              </Link>
+            </Button>
+            <Button variant="contained" color="secondary">
+              <GitHubIcon />
+              <Typography>&nbsp;</Typography>
+              <Link
+                href="https://github.com/sutthiphanKeang"
+                target="_blank"
+                color="inherit"
+                underline="hover"
+              >
+                GitHub
               </Link>
             </Button>
           </Stack>

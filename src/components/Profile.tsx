@@ -11,7 +11,7 @@ export default class Profile extends Component {
   render() {
     return (
       <Card sx={{ margin: 1.5 }}>
-        <CardActionArea>
+        
           <CardMedia component="img" width ="5000" height="550" image={keang} />
           <CardContent>
             <Typography gutterBottom variant="h4" className="roboto-font">
@@ -28,7 +28,7 @@ export default class Profile extends Component {
               Faculty of Science, Chaing Mai University
             </Typography>
           </CardContent>
-        </CardActionArea>
+        
       </Card>
     );
   }
