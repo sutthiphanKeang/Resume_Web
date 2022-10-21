@@ -192,7 +192,7 @@ export default class SkillsHome extends Component {
                               underline="hover"
                             >
                               {" "}
-                              classroom-reservation Web Project
+                              classroom-reservation Project
                             </Link>
                           </Button>
                           <Button variant="contained" color="secondary">
