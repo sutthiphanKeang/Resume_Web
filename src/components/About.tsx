@@ -60,7 +60,7 @@ export default class About extends Component {
               <div className="row mt">
                 <div className="col s12 m6 l7 xl7">
                   <h6>
-                    <b>Address:</b> No. 5/5, 9 ,Sub-district Ton Pao ,District
+                    <b>Address:</b> No. 5/5, 9, Sub-district Ton Pao, District
                     San Kamphaeng
                   </h6>
                   <h6>
