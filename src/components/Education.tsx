@@ -97,7 +97,7 @@ const steps = [
   },
   {
   label: "Bachelor of Computer Science At Chiang Mai University",
-  gpx: "GPX 3.50",
+  gpx: "GPX 3.43",
   end: "Graduate 2567",
   }
 ];
@@ -108,7 +108,7 @@ export default function CustomizedSteppers() {
     <Card sx={{ margin: 1.5 }}>
       <CardContent>
         <Typography
-          variant="h5"
+          variant="h4"
           sx={{ mb: 1.5 }}
           component="div"
           className="roboto-font"

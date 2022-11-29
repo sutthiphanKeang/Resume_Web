@@ -13,8 +13,9 @@ import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import "./custom-css.css";
 import ac2 from "../picture/me/ac2.jpg";
-import ac3 from "../picture/me/ac3.png";
 import ac1 from "../picture/me/ac1.jpeg";
+import ac3 from "../picture/me/ac3.jpg";
+import ac4 from "../picture/me/ac4.jpg";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -37,13 +38,30 @@ const images = [
       activities for 2nd and 1st year students of the department. There are many works that I have done. 
       like the first meeting A mini concert in collaboration with the music club of the Faculty of Science.`,
   },
+  
   {
-    label: 'Best Education Award',
+    label: 'Staff of Young Computer Scientist Camp #2 and #3',
     imgPath:
-      ac3,
+      ac3 ,
     description:
-    `Annual good student award You can get it only if your grade point average for both semesters is 3.5 
-    or higher and you don't have an F grade and this certificate belongs to the academic year 2021.`,
+      `It is a camp designed to give middle and high school students 
+      who are thinking about attending Chiang Mai University's Department 
+      of Computer Science the chance to hone their skills and test out 
+      programming Python code to analyze images and videos. 
+      I serve as a mentor during Camps 2 and 3.`,
+  },
+
+  {
+    label: 'Volunteer of CMU Science Camp 41',
+    imgPath:
+      ac4 ,
+    description:
+      `It is a camp that enables high school students 
+      who are interested in attending Chiang Mai University's 
+      Faculty of Science to study, conduct experiments, 
+      and visit the labs of all its departments. 
+      Before they are allowed to enter the camp, 
+      every youngster is checked. where I serve as this camp's auditor`,
   },
 ];
 function SwipeableTextMobileStepper() {
@@ -66,8 +84,8 @@ function SwipeableTextMobileStepper() {
   return (
     <Card sx={{ margin: 1.5 }}>
     <CardContent>
-    <Typography variant="h5" component="div" className="roboto-font">
-       EXPRERIENCE
+    <Typography variant="h4" component="div" className="roboto-font">
+    EXPERIENCE AND ACTIVITIES
     </Typography>
       <Box sx={{ maxWidth: 1500, flexGrow: 1 }}>
         <Paper
@@ -91,7 +109,7 @@ function SwipeableTextMobileStepper() {
         >
           {images.map((step, index) => (
             <div key={step.label}>
-              {Math.abs(activeStep - index) <= 4 ? (
+              {Math.abs(activeStep - index) <= 12 ? (
                 <div className='row mt-top'>
                   <div className='col s6'>
                     <Box

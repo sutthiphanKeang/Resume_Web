@@ -12,56 +12,42 @@ import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import "./custom-css.css";
-import ac2 from "../picture/me/ac2.jpg";
-import ac1 from "../picture/me/ac1.jpeg";
-import ac3 from "../picture/me/ac3.jpg";
-import ac4 from "../picture/me/ac4.jpg";
+import cp2 from "../picture/me/cp2.jpg";
+import cp3 from "../picture/me/cp3.png";
+import cp1 from "../picture/me/cp1.jpg";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
   {
-    label: 'Teaching Assistant 204111',
+    label: 'Integration based learning for Web App',
     imgPath:
-      ac1 ,
-    description: `Assistant teachers are teaching assistants of teachers in courses 204111 and 204113 
-    of the Department of Computer Science. Chiang Mai University. 
-    The work will be divided into 2 parts, which is to help teach homework to first year students and edit the teaching clips of each session. 
-    I have been doing this job since the 2nd year until the 3rd year.`,
+      cp1 ,
+    description: `It is a competition in the course 204333 Web Application Architecture 
+    by collaborating with the course 204441 Concurrent 
+    , and I was in charge of coding the front-end using Vue.JS. 
+    There is a one-semester working period, and after finishing the course, 
+    there will be a presentation to the committee. who is a subject teacher and a CS teacher, 
+    and my team came in 1st runner up.`,
   },
   {
-    label: 'Department of Activities Committee',
+    label: "Lotus's Retails Innovation Hackathon",
     imgPath:
-      ac2 ,
+      cp2 ,
     description:
-      `Organizing activities of various computer science departments The work that I do is to organize 
-      activities for 2nd and 1st year students of the department. There are many works that I have done. 
-      like the first meeting A mini concert in collaboration with the music club of the Faculty of Science.`,
+      `Lotus' hackathon is a collaboration between two faculties 
+      and one college, including the Faculty of Science. 
+      CAMT and the Faculty of Engineering In the retails lnnovation hackathon competition, 
+      a problem is presented and 26 hours are allotted to develop an application 
+      to solve that problem. My team came in 1st runner up.`,
   },
-  
   {
-    label: 'Staff of Young Computer Scientist Camp #2 and #3',
+    label: 'Best Education Award',
     imgPath:
-      ac3 ,
+      cp3,
     description:
-      `It is a camp designed to give middle and high school students 
-      who are thinking about attending Chiang Mai University's Department 
-      of Computer Science the chance to hone their skills and test out 
-      programming Python code to analyze images and videos. 
-      I serve as a mentor during Camps 2 and 3.`,
-  },
-
-  {
-    label: 'Volunteer of CMU Science Camp 41',
-    imgPath:
-      ac4 ,
-    description:
-      `It is a camp that enables high school students 
-      who are interested in attending Chiang Mai University's 
-      Faculty of Science to study, conduct experiments, 
-      and visit the labs of all its departments. 
-      Before they are allowed to enter the camp, 
-      every youngster is checked. where I serve as this camp's auditor`,
+    `Annual good student award You can get it only if your grade point average for both semesters is 3.5 
+    or higher and you don't have an F grade and this certificate belongs to the academic year 2021.`,
   },
 ];
 function SwipeableTextMobileStepper() {
@@ -85,7 +71,7 @@ function SwipeableTextMobileStepper() {
     <Card sx={{ margin: 1.5 }}>
     <CardContent>
     <Typography variant="h4" component="div" className="roboto-font">
-    EXPERIENCE AND ACTIVITIES
+    COMPETITIONS AND AWARDS
     </Typography>
       <Box sx={{ maxWidth: 1500, flexGrow: 1 }}>
         <Paper

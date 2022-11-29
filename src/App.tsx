@@ -9,6 +9,7 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 import { MainLyout } from './components/MainLayout';
 import About from './components/About';
+import Competition from './components/Competition';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='Skills' element={<Skills/>}></Route>
         <Route path='Education' element={<Education/>}></Route>
         <Route path='Experience' element={<Experience/>}></Route>
+        <Route path='Competition' element={<Competition/>}></Route>
       </Route>
     </Routes>
   );

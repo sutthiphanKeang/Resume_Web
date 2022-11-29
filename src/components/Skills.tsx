@@ -28,24 +28,28 @@ const theme = createTheme({
   },
 });
 
-export default class Skills extends Component {
+export default class SkillsHome extends Component {
   render() {
     return (
       <Card sx={{ margin: 1.5 }}>
         <ThemeProvider theme={theme}>
           <CardContent>
-            <Typography variant="h5" component="div" className="roboto-font">
+            <Typography variant="h4" component="div" className="roboto-font">
               PROFESSIONAL SKIILS
             </Typography>
             <Box sx={{ p: 1 }}>
               <Typography className="roboto-font">
                 <div className="row mt-top">
                   <div className="col s6">
-                    <p>
+                    <Typography
+                      variant="h6"
+                      component="div"
+                      className="roboto-font"
+                    >
                       <b>Python</b>
-                    </p>
+                    </Typography>
+
                     <Box sx={{ width: "100%" }}>
-                      <LinearProgress variant="determinate" value={80} />
                       <Box sx={{ p: 1 }}>
                         <Typography
                           variant="subtitle1"
@@ -75,10 +79,16 @@ export default class Skills extends Component {
                       </Box>
                     </Box>
                     <p>
-                      <b>HTML & CSS</b>
                     </p>
+                      <Typography
+                        variant="h6"
+                        component="div"
+                        className="roboto-font"
+                      >
+                        <b>HTML & CSS</b>
+                      </Typography>
+                    
                     <Box sx={{ width: "100%" }}>
-                      <LinearProgress variant="determinate" value={65} />
                       <Box sx={{ p: 1 }}>
                         <Typography
                           variant="subtitle1"
@@ -106,13 +116,53 @@ export default class Skills extends Component {
                         </Stack>
                       </Box>
                     </Box>
+                    <p>
+                    </p>
+                      <Typography
+                        variant="h6"
+                        component="div"
+                        className="roboto-font"
+                      >
+                        <b>Dart (Flutter)</b>
+                      </Typography>
+                    
+                    <Box sx={{ width: "100%" }}>
+                      <Box sx={{ p: 1 }}>
+                        <Typography
+                          variant="subtitle1"
+                          className="roboto-font"
+                          color="text.secondary"
+                        >
+                          - Lotus's Retails Innovation Hackathon. <br /><br />
+                        </Typography>
+                        <Stack direction="row" spacing={4} mt={2}>
+                          <Button variant="contained" color="secondary">
+                            <GitHubIcon />
+                            <Typography>&nbsp;</Typography>
+                            <Link
+                              href="https://github.com/sutthiphanKeang/Lotus-hackathon"
+                              target="_blank"
+                              color="inherit"
+                              underline="hover"
+                            >
+                              {" "}
+                              Lotus's Cart Appication
+                            </Link>
+                          </Button>
+                        </Stack>
+                      </Box>
+                    </Box>
                   </div>
                   <div className="col s6">
-                    <p>
+                    <Typography
+                      variant="h6"
+                      component="div"
+                      className="roboto-font"
+                    >
                       <b>Java & C++</b>
-                    </p>
+                    </Typography>
+
                     <Box sx={{ width: "100%" }}>
-                      <LinearProgress variant="determinate" value={60} />
                       <Box sx={{ p: 1 }}>
                         <Typography
                           variant="subtitle1"
@@ -166,10 +216,16 @@ export default class Skills extends Component {
                       </Box>
                     </Box>
                     <p>
-                      <b>Java Script (Vuetify & React)</b>
+                      
                     </p>
+                    <Typography
+                      variant="h6"
+                      component="div"
+                      className="roboto-font"
+                    >
+                      <b>Java Script (Vue.JS)</b>
+                    </Typography>
                     <Box sx={{ width: "100%" }}>
-                      <LinearProgress variant="determinate" value={65} />
                       <Box sx={{ p: 1 }}>
                         <Typography
                           variant="subtitle1"
@@ -177,8 +233,7 @@ export default class Skills extends Component {
                           color="text.secondary"
                         >
                           - Web App Project 204333 (Write in Vuetify and
-                          Combined with 204441 Concurrent) <br />- Resume
-                          Project (Write in React)
+                          Combined with 204441 Concurrent) <br /><br />
                         </Typography>
 
                         <Stack direction="row" spacing={4} mt={2}>
@@ -193,6 +248,46 @@ export default class Skills extends Component {
                             >
                               {" "}
                               classroom-reservation Project
+                            </Link>
+                          </Button>
+                          
+                        </Stack>
+                      </Box>
+                    </Box>
+
+                    <p>
+                      
+                    </p>
+                    <Typography
+                      variant="h6"
+                      component="div"
+                      className="roboto-font"
+                    >
+                      <b>Type Script (MUI)</b>
+                    </Typography>
+                    <Box sx={{ width: "100%" }}>
+                      <Box sx={{ p: 1 }}>
+                        <Typography
+                          variant="subtitle1"
+                          className="roboto-font"
+                          color="text.secondary"
+                        >
+                          - Web App Project 204361 Software Engineering and 204321 Database Systems. <br />- Resume
+                          Project (Write in React)
+                        </Typography>
+
+                        <Stack direction="row" spacing={4} mt={2}>
+                          <Button variant="contained" color="secondary">
+                            <GitHubIcon />
+                            <Typography>&nbsp;</Typography>
+                            <Link
+                              href="https://github.com/sutthiphanKeang/ProjectSeAndDB"
+                              target="_blank"
+                              color="inherit"
+                              underline="hover"
+                            >
+                              {" "}
+                              Car-Reservation Project
                             </Link>
                           </Button>
                           <Button variant="contained" color="secondary">
@@ -210,6 +305,7 @@ export default class Skills extends Component {
                         </Stack>
                       </Box>
                     </Box>
+
                   </div>
                 </div>
               </Typography>

@@ -41,11 +41,7 @@ export default class AboutHome extends Component {
           </Typography>
           <Box sx={{ p: 1 }}>
             <Typography sx={{ mb: 1.5 }} variant="h6" color="text.secondary" className="roboto-font">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I am currently in my third year of a bachelor's degree program. My
-              advantage is that I am a conscientious and responsible individual.
-              However, the disadvantage is that it is extremely indolent. I also
-              enjoy sleeping a lot, therefore if I'm given a task, I'll work
-              hard to complete it as fast as feasible.
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I am currently in my third year of a bachelor's degree program. My approach to work is that I admit from the outset that I am not skilled. As a result, each activity necessitates a significant amount of work. However, I never ceased growing as a person. as well as making today better than yesterday.
             </Typography>
           </Box>
 
@@ -75,7 +71,7 @@ export default class AboutHome extends Component {
                     <b>Native Language:</b> Thai
                   </h6>
                   <h6>
-                    <b>Foreign Language:</b> English
+                    <b>Foreign Language:</b> English (Basic Level)
                   </h6>
                 </div>
               </div>
